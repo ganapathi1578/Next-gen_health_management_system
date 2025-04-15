@@ -1,4 +1,4 @@
-medcare_prjct/medcare/urls.py requirements.txt README.md Procfile Pipfile.lock Pipfileimport os
+import os
 import csv
 import django
 from homeremedies.models import BodyPart, Disease, Remedy
