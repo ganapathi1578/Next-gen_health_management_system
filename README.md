@@ -187,6 +187,14 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 ## Contact
 
-**Author**: Lakshmi Ganapathi Kodi  
-**Email**: ganapathi1578@example.com
+## Contributors
+
+| Name              | Role                   | Image                         |
+|-------------------|------------------------|-------------------------------|
+| Saurabh Gupta     | Home Remedies Expert   | ![Saurabh Gupta](https://via.placeholder.com/180) |
+| Manish Kumar      | Frontend Designer      | ![Manish Kumar](https://via.placeholder.com/180)  |
+| Lakshmi Ganapathi | Backend Developer      | ![Lakshmi Ganapathi](https://via.placeholder.com/180) |
+| Santosh Anand     | AI Model Engineer      | ![Santosh Anand](https://via.placeholder.com/180)  |
+| Aniket Kumar      | Organ Management       | ![Aniket Kumar](https://via.placeholder.com/180)   |
+
 
