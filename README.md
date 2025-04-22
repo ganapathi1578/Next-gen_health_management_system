@@ -179,10 +179,6 @@ Please follow PEP8 guidelines and include tests for any new functionality.
 
 ---
 
-## License
-
-This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
-
 ---
 
 ## Contact
