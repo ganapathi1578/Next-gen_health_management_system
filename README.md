@@ -1,97 +1,3 @@
-# Next‑gen Health Management System (NHMS)
-
-A modular Django‑based platform delivering end‑to‑end healthcare support—from patient and clinic onboarding to AI‑powered diagnostics, home remedy suggestions, organ donation tracking, and interactive mapping of healthcare facilities.
-
----
-
-## Table of Contents
-
-1. [Overview](#overview)  
-2. [Tech Stack](#tech-stack)  
-3. [Prerequisites](#prerequisites)  
-4. [Installation & Setup](#installation--setup)  
-5. [Configuration](#configuration)  
-6. [Project Structure](#project-structure)  
-7. [Usage](#usage)  
-8. [Contributing](#contributing)  
-9. [License](#license)  
-10. [Contact](#contact)  
-
----
-
-## Overview
-
-NHMS is designed to streamline healthcare workflows and empower users with intelligent tools:
-
-- **User & Clinic Authentication**  
-  Secure signup/login for patients, clinics, and hospitals.
-
-- **AI‑Powered Diagnostics**  
-  Image‑ and data‑driven disease prediction (ECG arrhythmia, cataracts, tuberculosis, diabetes risk, tumor segmentation, simulated AIDS biomarkers).
-
-- **Home Remedy Recommendations**  
-  Natural treatment suggestions based on user symptoms.
-
-- **Organ Donation & Search**  
-  Donor registration, blood‑type matching, proximity‑based donor lookup.
-
-- **Facility Mapping & Routing**  
-  Compute shortest driving routes to hospitals using real road‑network graphs (Mizoram, India).
-
----
-
-## Tech Stack
-
-- **Backend**: Python 3.x, Django 3.x  
-- **AI/ML**: PyTorch, TorchScript models  
-- **Data Processing**: OpenCV, PIL, GeoPandas, NetworkX, OSMnx  
-- **Frontend**: Django Templates (HTML5, CSS3, JavaScript, Bootstrap optional)  
-- **Database**: SQLite (development)  
-- **Deployment**: Procfile (Heroku), static & media handling in debug
-
----
-
-## Prerequisites
-
-- Python 3.8+  
-- pip (or Pipenv)  
-- Git  
-
----
-
-## Installation & Setup
-
-```bash
-# 1. Clone the repository
-git clone https://github.com/ganapathi1578/Next-gen_health_management_system.git
-
-# 2. Change into project directory
-cd Next-gen_health_management_system
-
-# 3. (Optional) Create & activate virtual environment
-python3 -m venv env
-# macOS/Linux:
-source env/bin/activate
-# Windows:
-env\Scripts\activate
-
-# 4. Install dependencies
-pip install -r requirements.txt
-
-# 5. Apply database migrations
-python manage.py migrate
-
-# 6. Create media directory for uploads
-mkdir -p media uploads
-
-# 7. Run development server
-python manage.py runserver
-
-# 8. Open in browser
-# Visit: http://127.0.0.1:8000/
-Configuration
-Copy the example environment file:
-
 # Next-gen Health Management System (NHMS)
 
 A modular Django-based platform delivering end-to-end healthcare support—from patient and clinic onboarding to AI-powered diagnostics, home remedy suggestions, organ donation tracking, and interactive mapping of healthcare facilities.
@@ -275,7 +181,7 @@ Please follow PEP8 guidelines and include tests for any new functionality.
 
 ## License
 
-
+This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
 ---
 
