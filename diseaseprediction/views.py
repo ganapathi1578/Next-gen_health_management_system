@@ -64,8 +64,6 @@ class MyForm(forms.Form):
 def ecg_image2tensor(image_path):
     base_dir = os.path.dirname(os.path.abspath(__file__))
     model_path = os.path.join(base_dir, 'aimodels', 'CS_Net.pt')
-
-    #model_path = r"C:\Users\GANAPATHI\Desktop\NIT\project\ymhhacakthon\medcare_prjct\diseaseprediction\aimodels\CS_Net.pt" 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     Model = torch.jit.load(model_path, map_location=device)
     Model.eval()

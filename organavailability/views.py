@@ -18,7 +18,7 @@ import osmnx as ox
 from django.contrib.auth.decorators import login_required
 from medcare import settings
 import os
-
+#pip install -r requirements.txt && python manage.py migrate && python manage.py collectstatic --noinput
 def find_distance(G, coord1, coord2):
     print("requested for the distance")
     if coord1 and coord2:

@@ -20,7 +20,7 @@ def load_data():
     data = []
     base_dir = os.path.dirname(os.path.abspath(__file__))
     csv_file_path = os.path.join(base_dir, 'data', 'ram_remedy(1).csv')
-    #csv_file_path = r"C:\Users\GANAPATHI\Desktop\NIT\project\ymhhacakthon\medcare_prjct\data\ram_remedy(1).csv"
+    
     print('dataloaded')
     try:
         with open(csv_file_path, newline='', encoding='Windows-1252') as file:
