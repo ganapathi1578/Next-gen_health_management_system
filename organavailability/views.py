@@ -56,8 +56,8 @@ def page_searchorgan(request):
 
 
     # Taking mzus location
-    user_lat = 23.7349213
-    user_lon = 92.62665429
+    user_lat = 23.7520222
+    user_lon = 92.7274260
     if user_lat and user_lon:
         user_location = (float(user_lat), float(user_lon))
 
